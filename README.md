@@ -1,2 +1,0 @@
-# snake
-snekk v2
