@@ -6,11 +6,13 @@ Game::Game()
     _Renderer = nullptr;
     _screenWidth = 1024;
     _screenHeight = 600;
+    _x = SDL_WINDOWPOS_CENTERED;
+    _y = SDL_WINDOWPOS_CENTERED;
     _isRunning = false;
     message = nullptr;
     font = nullptr;
     text = nullptr;
-    textColor.r=200; textColor.g = 0; textColor.b = 150;
+    textColor->r=200; textColor->g = 0; textColor->b = 150;
     windowTitle = "snekk v2";
 }
 
@@ -71,6 +73,7 @@ void Game::Initialize()
         printf("Error initializing TTF: %s\n", SDL_GetError());
     }
 
+    printf("%s", "Initialized Properly!\n");
     _isRunning = true;
 }
 
