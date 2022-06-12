@@ -5,8 +5,8 @@
             "includePath": [
                 "${workspaceFolder}/**",
                 "${workspaceFolder}/include",
-                "${workspaceFolder}/include",
-                "${workspaceFolder}/include",
+                "${workspaceFolder}/include/sdl2",
+                "${workspaceFolder}/include/headers",
                 "${workspaceFolder}/include"
             ],
             "defines": [
